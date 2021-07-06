@@ -1,0 +1,31 @@
+.button{
+background: var(--colorMorado);
+color: var(--colorBlanco);
+font: var(--boton1);
+
+padding-inline-start:24px ;
+padding-inline-end:24px ;
+padding-block-start:13px ;
+padding-block-end: 13px;
+
+border-radius: 4px;
+border: none;
+
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+.button.es-secundario{
+    background: unset;
+    color: var(--colorMorado);
+    border:2px solid var(--colorMorado);
+
+}
+
+.button.es-icono{
+    background: unset;
+    color: var(--colorMorado);
+    border:2px solid var(--colorMorado);
+
+}

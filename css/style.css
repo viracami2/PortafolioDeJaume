@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import './button.css';
+@import './button.icono.css';
+@import './header.css';
+@import './principal.css';
+
+
+:root{
+    --degradado: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --colorMorado:#310A90;
+    --colorAzul:#42E2B8;
+    --colorBlanco:white;
+
+    --fontBase: 'Poppins', sans-serif;
+    --headLine1: bold 95px/154px var(--fontBase); 
+    --headLine2: bold 59px/95px var(--fontBase); 
+    --headLine3: bold 48px/78px var(--fontBase); 
+    --headLine4:  bold 34px/55px var(--fontBase);  
+    --headLine5:  bold 24px/39px var(--fontBase); 
+    
+    --body1:  normal 16px/26px var(--fontBase); 
+    --body2:  normal 14px/23px var(--fontBase); 
+    --boton1:  bold 14px/23px var(--fontBase); 
+    --boton1:  normal 12px/19px var(--fontBase); 
+
+}
+
+body{
+/* background: --var(--degradado); */
+background: var(--degradado);
+min-block-size: 100vh;
+font:  var(--body1);
+}
